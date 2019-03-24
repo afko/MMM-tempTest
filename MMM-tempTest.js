@@ -1,4 +1,4 @@
-Module.register("sensor",{
+Module.register("MMM-tempTest",{
 	defaults: {
 		updateInterval: 30 * 60 * 1000 //reads the file every 30 mins
 	},

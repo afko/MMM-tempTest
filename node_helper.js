@@ -16,7 +16,7 @@ module.exports = NodeHelper.create({
 
 	readData: function(){
 		//to read a file to do the following
-		fs.readFile("Test-temp.txt", "utf8", (err, data) => {
+		fs.readFile("./modules/MMM-tempTest/Test-temp.txt", "utf8", (err, data) => {
 			if (err) throw err;
 			this.sendSocketNotification("DATA", data);
 		});
